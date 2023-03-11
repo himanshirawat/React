@@ -1,4 +1,7 @@
+
+
 import React, { Constructor } from 'react';
+import 
 
 class Menu extends Components{
 
@@ -8,6 +11,13 @@ class Menu extends Components{
 
     render(){
         return (
+            <div className="container">
+                <div className="row">
+                    <Media list>
+                        {menu}
+                    </Media>
+                </div>
+            </div>
 
         );
     }
